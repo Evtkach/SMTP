@@ -1,0 +1,8 @@
+cat << 'EOF' > .gitignore
+.venv/
+__pycache__/
+.pytest_cache/
+celerybeat-schedule*
+.env
+.idea/
+EOF
